@@ -1,0 +1,36 @@
+{
+  "name": "svd-doc",
+  "version": "1.0.0",
+  "description": "SVD Reference documentation",
+  "author": "me@silvandiepen.com",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env HOST=0.0.0.0 PORT=3760 nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/pwa": "^2.0.8",
+    "autoprefixer": "^8.4.1",
+    "cross-env": "^5.1.4",
+    "node-sass": "^4.9.0",
+    "nuxt": "^1.0.0",
+    "nuxt-rfg-icon": "^0.4.2",
+    "postcss": "^6.0.22",
+    "pug": "^2.0.3",
+    "sass-loader": "^7.0.1",
+    "svd-footer": "0.0.14",
+    "svd-style": "^1.5.25",
+    "svd-vue-components": "^0.1.5"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0"
+  }
+}
